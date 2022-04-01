@@ -1,0 +1,152 @@
+
+/* MAIN PAGE */
+h1 {
+    text-align: center;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    font-family: monospace;
+}
+
+h2{
+  text-align: center;
+  font-family: monospace;
+}
+
+ul.no-bullets {
+  list-style-type: none;
+  text-align: center;
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+}
+
+.color-list a{
+  text-decoration: none;
+  color: black;
+}
+
+.red a:hover{
+  background-color: red;
+  color: black;
+}
+
+.blue a:hover{
+  background-color: blue;
+  color: black;
+}
+
+.yellow a:hover{
+  background-color: yellow;
+  color: black;
+}
+
+.green a:hover{
+  background-color: green;
+  color: black;
+}
+
+.orange a:hover{
+  background-color: orange;
+  color: black;
+}
+
+.violet a:hover{
+  background-color: violet;
+  color: black;
+}
+
+.pink a:hover{
+  background-color: pink;
+  color: black;
+}
+
+.grey a:hover{
+  background-color: grey;
+  color: black;
+}
+
+.white a:hover{
+  background-color: rgba(255, 255, 255, 0.801);
+  color: black;
+}
+
+.black a:hover{
+  background-color: black;
+  color: white;
+}
+
+/* NAVBAR */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+    font-family: monospace;
+    height: 50px;
+  }
+
+.nav-items{
+  float: none;
+  display:inline-block;
+  vertical-align: middle;
+}
+  
+.items{
+  display: inline;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  font-family: monospace;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  /*margin-left: 320px;*/
+  }
+  
+.topnav a:hover {
+  background-color: yellow;
+  color: black;
+  }
+  
+.topnav a.active {
+  background-color: #FF2626;
+  color: white;
+}
+
+/* FOOTER */
+.footer{
+    margin-top: 500px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: monospace;
+}
+
+
+/*ABOUT US - styles*/
+
+.center{
+  width: 185px;
+  height:217px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center2{
+  width: 191px;
+  height:301px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text{
+  text-align: center;
+  font-family: monospace;
+}
